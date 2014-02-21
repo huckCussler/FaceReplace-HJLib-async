@@ -1,1 +1,10 @@
-/* TO-DO:  Add to this */
+FaceReplace takes two image files divided into smaller regions, or 'faces', and matches the face from one of
+the images to the same face on the other image.  The faces are permuted on each image so that each face does not
+appear in the same area of both images.
+
+Java 8 is required to run this program.  The Habanero Java library (HJ-lib) is included with this package.  Visit
+https://wiki.rice.edu/confluence/display/PARPROG/HJ+Library for more information about Habanero Java and/or the
+Habanero library in general.
+
+Running the program should be as simple as pulling the repo and issuing the 'make' command.  A GUI will appear,
+it should be fairly intuitive from there.
